@@ -1,0 +1,288 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f6e8c3; /* Beige suave */
+    color: #333;
+    background-blend-mode: darken;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1998ab; /* Azul brillante */
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    font-family: "Outfit";
+}
+
+nav ul li a:hover {
+    color: #a7c957; /* Verde lima */
+    transform: scale(1.1);
+}
+
+.iconos a {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.iconos a:hover {
+    color: #a7c957; /* Verde lima */
+    transform: scale(1.1);
+}
+
+/* Sección Principal */
+.principal {
+    background-image: url(../imagen/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.contenidouno {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.contenidouno h1 {
+    font-size: 48px;
+    font-family:'Franklin Gothic Medium';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    
+}
+
+.contenidouno h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Outfit';
+    font-weight: bolder;
+    color: #1998ab;
+}
+
+.contenidouno p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.botones .button {
+    background-color: #a7c957; /* Verde lima */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botones .button:hover {
+    background-color: #1998ab; /* Azul brillante */
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Banner Section */
+.banner {
+    background-color: #e5e7eb;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contenidodos h2 {
+    font-size: 36px;
+    color: #1998ab;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium';
+    text-transform: uppercase;
+}
+
+.figuras {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.figuras a {
+    color: #1998ab;
+    font-size: 30px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.figuras a:hover {
+    color: #a7c957; /* Verde lima */
+    transform: scale(1.1);
+}
+
+/* Galería */
+.galeria {
+    padding: 60px 0;
+    background-color: #f6e8c3; /* Beige suave */
+}
+
+.galeria h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #1998ab;
+    font-family:'Franklin Gothic Medium';
+    text-transform: uppercase;
+
+}
+
+.galeria p {
+    color: #333; /* Color de texto oscuro */
+    font-size: 18px; /* Tamaño de fuente */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 15px; /* Espacio entre párrafos */
+    text-align: center; /* Alinear el texto */
+}
+
+.contenidotres {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.columna {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 30%; 
+    box-sizing: border-box;
+}
+
+.columna img {
+    max-width: 100%; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover; 
+    width: 100%;        
+  height: 250px
+}
+
+.columna p {
+  flex-grow: 1; 
+  margin-bottom: 20px; 
+  color: #666; 
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.columna a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #a7c957; /* Color del botón */
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.columna a:hover {
+    background-color: #1998ab;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #1998ab; /* Azul brillante */
+    padding: 30px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 20px; 
+    margin-bottom: 20px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer p {
+    color: #fff; /* Color del texto en el footer */
+    font-size: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px; /
+}
+
+.social-icons li {
+    list-style: none;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #a7c957; /* Verde lima */
+}
+
+.footer h4 {
+
+    margin-top: 20px;
+    font-size: 16px;
+    color: #cdec86; 
+    letter-spacing: 2px;
+}
